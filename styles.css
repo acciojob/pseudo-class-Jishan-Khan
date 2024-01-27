@@ -2,14 +2,14 @@
 	margin:20px;
 }
 
-#container p::before{
-	content:"Before Element";
+p::before{
+	content:"Before Element ";
 	color:#f00;
 	font-size:20px;
 }
 
-#container p::after{
-	content:"After Element";
+p::after{
+	content:" After Element ";
 	color:#f00;
 	font-size:20px;
 }
